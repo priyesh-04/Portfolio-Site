@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.my-navbar {
+    background-color: #fff;
+    height: 60px;
+    padding: 10px;
+    margin: 0;
+}
+
+.header {
+    background: aliceblue;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.resume-btn {
+    position: relative;
+}
+
+.my-pic {
+   width: 200px;
+   border-radius: 50%;
+}
+
+.project-section {
+    background-color: #b6f7ba;
+    min-height: 100vh;
+}
+
+.projects {
+    padding-bottom: 20px;
+}
+
+.project-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.project-row {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.col-md-8 {
+    text-align: left;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-top: 70px;
+}
+
+hr {
+    margin: 50px 0 !important;
+}
+
+.project-title {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    color: #333;
+}
+
+.services-section {
+    background: #ffffff;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.service-block {
+    background-color: #d3d3d3;
+    /* width: 400px; */
+    height: 200px;
+    padding: 20px;
+}
+
+.contact-section {
+   background:aliceblue;
+    text-align: center;
+    min-height: 500px;
+}
+
+
+.footer {
+    background-color: #201f1f;
+    height: 80px;
+}
+
+.footer p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+/* back to top button */
+
+#button {
+    display: inline-block;
+    background-color: #007bff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#button::after {
+    content: "\f077";
+    color: #fff;
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+#button:active {
+    background-color: #555;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
